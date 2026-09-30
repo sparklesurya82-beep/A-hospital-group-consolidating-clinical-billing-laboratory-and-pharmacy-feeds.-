@@ -1,0 +1,2 @@
+# Dependencies for Hospital Late-Event Correction Framework
+# Core uses standard Python 3.9+ libraries for maximum portability.

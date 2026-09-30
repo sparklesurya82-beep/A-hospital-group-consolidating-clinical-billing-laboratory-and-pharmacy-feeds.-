@@ -1,0 +1,15 @@
+{
+  "rules_engine_version": "2.1.0",
+  "system_grace_periods_hours": {
+    "CLINICAL": 72,
+    "BILLING": 168,
+    "LABORATORY": 48,
+    "PHARMACY": 24
+  },
+  "manual_review_threshold_amount": 2500.00,
+  "anomaly_detection": {
+    "max_acceptable_clock_drift_minutes": 15,
+    "drop_future_dated_events": true,
+    "quarantine_unresolved_events": true
+  }
+}
